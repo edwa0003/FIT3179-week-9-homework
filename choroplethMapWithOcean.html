@@ -62,8 +62,12 @@
             "color": {
               "field": "CorporateTax",
               "type": "quantitative",
-              "scale": {"type": "linear"}
-            },
+              "scale": {
+                "range": ["#f2e5ff", "#7b1fa2"],  // Purple color scale
+                "type": "linear"
+              }
+            }
+            ,
             "tooltip": [
               {"field": "properties.NAME", "type": "nominal", "title": "Country"},
               {"field": "CorporateTax", "type": "quantitative", "title": "Corporate Tax Rate"}

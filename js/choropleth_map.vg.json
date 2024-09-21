@@ -39,9 +39,11 @@
             "field": "Corporate Tax",
             "type": "quantitative",
             "scale": {
+                "range": ["#f2e5ff", "#7b1fa2"],
                 "type": "linear"
             }
-        },
+        }
+        ,
         "tooltip": [
             {
                 "field": "properties.NAME",
