@@ -18,7 +18,7 @@
             "lookup": "properties.NAME",
             "from": {
                 "data": {
-                    "url": "file:///D:/FIT3179/FIT3179%20week%209%20homework/data/transformed_2023_Corporate_Tax_Rates.csv"
+                    "url": "https://raw.githubusercontent.com/edwa0003/FIT3179-week-9-homework/main/data/transformed_2023_Corporate_Tax_Rates.csv"
                 },
                 "key": "country",
                 "fields": [
